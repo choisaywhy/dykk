@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sample Login Form</title>
+</head>
+<body>
+<form method="post">
+    <label>
+        nickname
+    </label>
+    <input type="string" name="nickname" value="{{ nickname }}"/>
+    <label>
+        password
+    </label>
+    <input type="password" name="password" value="{{ password }}"/>
+    <label>
+        dailykcal
+    </label>
+    <input type="number" step="0.01" name="dailykcal" value="{{ dailykcal }}"/>
+    <label>
+        height
+    </label>
+    <input type="number" step="0.01" name="height" value="{{ height }}"/>
+    <label>
+        weight
+    </label>
+    <input type="number" step="0.01" name="weight" value="{{ weight }}"/>
+    <input type="submit">
+</form>
+
+<a href="/upload/"><h1>hihi</h1></a>
+</body>
+</html>
