@@ -25,6 +25,7 @@ class Food(Base):
     protein = Column(Float)
     fat = Column(Float)
     sugar = Column(Float)
+    amount = Column(Integer)
 
     category_rel = relationship("Category", back_populates="foods_rel")
     intakes_rel = relationship("Intake", back_populates="foods_rel")

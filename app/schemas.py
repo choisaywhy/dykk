@@ -13,6 +13,7 @@ class FoodBase(BaseModel):
     protein : float
     fat : float
     sugar : float
+    amount : int
 
 class FoodCreate(FoodBase):
     pass
